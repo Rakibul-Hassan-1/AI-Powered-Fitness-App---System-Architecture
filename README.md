@@ -9,9 +9,6 @@ ai-fitness-app-architecture/
 └── architecture/
     └── system_architecture.md
 ``` 
-# AI-Powered-Fitness-App---System-Architecture
-📘 README.md Template
-
 # AI-Powered Fitness App - System Architecture
 **📌 Overview**
 FitCore is a cross-platform fitness app that combines AI-driven meal planning and on-demand workouts. The system consists of a React Native frontend, Django REST backend, and integration with external services like Google Fit, Apple HealthKit, and OpenAI.
@@ -23,12 +20,11 @@ Mobile Frontend (React Native)
 Backend API (Django + DRF)
 Database (PostgreSQL)
 AI Meal Plan Generator (OpenAI API / custom ML model)
-Media Storage (AWS S3 / Cloudinary)
-Payments (Google/Apple IAP)
-Analytics (custom or 3rd-party like Mixpanel)
+Media Storage (AWS S3 )
+Payments (Google)
 ```
 ```
-**Diagram:**
+Diagram:
 
                             +-------------------+
                             |   Mobile App (RN) |
@@ -68,7 +64,9 @@ Admin – For content and user management
 ```
 
 **ERD:**
+
 ![AI Fitness App ER Diagram](./ai_fitness_app_erd.png)
+
 
 **🔌 API Endpoints (Django REST Framework)**
 
